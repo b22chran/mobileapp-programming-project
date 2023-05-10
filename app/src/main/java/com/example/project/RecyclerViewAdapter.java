@@ -16,9 +16,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private List<Ants> listOfAnts;
     private LayoutInflater layoutInflater;
 
-    RecyclerViewAdapter(Context context, List<Ants> listOfBerg) {
+    RecyclerViewAdapter(Context context, List<Ants> listOfAnts) {
         this.layoutInflater = LayoutInflater.from(context);
-        this.listOfAnts = listOfBerg;
+        this.listOfAnts = listOfAnts;
     }
 
     @NonNull

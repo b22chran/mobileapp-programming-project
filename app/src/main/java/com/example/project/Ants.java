@@ -6,7 +6,7 @@ public class Ants {
     private int size;
 
 
-    public Ants(String name, String location, int  height) {
+    public Ants(String name, String category, int  size) {
 
         this.name = name;
         this.category = category;
