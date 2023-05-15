@@ -28,9 +28,12 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="500dp"
+        android:background="#006400"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+
+        />
 
     <Button
         android:id="@+id/aboutButton"
