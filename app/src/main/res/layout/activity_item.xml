@@ -8,12 +8,13 @@
         android:id="@+id/recyclerItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#A0522D"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_item"
         android:textColor="#ffffff"
         android:textSize="18sp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="5dp"
+        android:padding="5dp"
         />
 
 </LinearLayout>

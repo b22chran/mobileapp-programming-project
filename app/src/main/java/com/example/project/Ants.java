@@ -15,7 +15,7 @@ public class Ants {
 
     @Override
     public String toString() {
-        String printItem= "Namn: "+ name+" Art: "+category+" Antal: "+size;
+        String printItem= "Namn: "+ name+ "\n Art: "+category+"\n Antal: "+size;
         return printItem;
     }
 }
